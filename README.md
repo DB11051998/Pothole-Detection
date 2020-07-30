@@ -20,3 +20,6 @@ R-CNN is short for “Region-based Convolutional Neural Networks”. The main id
 5) Given every image region, one forward propagation through the CNN generates a feature vector. It is predicted using VGG16 pre-trained model which is trained on Imagnet dataset.The positive samples are proposed regions with IoU (intersection over union) overlap threshold >= 0.3, and negative samples are irrelevant others.
 
 6) To reduce the localization errors, a regression model is trained to correct the predicted detection window on bounding box correction offset using CNN features.
+
+## Bounding Box Regression
+
