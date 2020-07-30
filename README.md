@@ -5,6 +5,7 @@ Detection of pothole using RCNN and Mask-RCNN
 # RCNN Architecture
 
 ![RCNN architecture](https://miro.medium.com/max/1204/1*yWJB5OkMK4UJxLHoeWWWWg.png)
+
 R-CNN is short for “Region-based Convolutional Neural Networks”. The main idea is composed of two steps. First, using selective search, it identifies a manageable number of bounding-box object region candidates (“region of interest” or “RoI”). And then it extracts CNN features from each region independently for classification.
 ## WORKFLOW
 
